@@ -1,0 +1,26 @@
+{
+  "name": "webpack-first-configuration",
+  "version": "1.0.0",
+  "description": "the basic configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "build:prod": "./node_modules/.bin/webpack -p",
+    "watch": "./node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonieC/webpack-first-configuration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonieC/webpack-first-configuration/issues"
+  },
+  "homepage": "https://github.com/RonieC/webpack-first-configuration#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
